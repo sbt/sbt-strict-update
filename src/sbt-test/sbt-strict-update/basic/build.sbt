@@ -1,6 +1,6 @@
 ThisBuild / scalaVersion := "2.13.3"
 
-ThisBuild / libraryDependencySchemes += "org.typelevel" %% "cats-effect" % "semver-early"
+ThisBuild / libraryDependencySchemes += "org.typelevel" %% "cats-effect" % "early-semver"
 
 lazy val root = (project in file("."))
   .settings(

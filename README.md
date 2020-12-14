@@ -18,5 +18,5 @@ usage
 Add the following to your `build.sbt`
 
 ```scala
-ThisBuild / libraryDependencySchemes += "org.typelevel" %% "cats-effect" % "semver-early"
+ThisBuild / libraryDependencySchemes += "org.typelevel" %% "cats-effect" % "early-semver"
 ```
